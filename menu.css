@@ -1,0 +1,127 @@
+/*Menu Page*/
+Body{
+    background-image: url("images/table.webp");
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+    }
+
+img{
+width: 190px;
+height: auto;
+}
+    
+.figure{
+display: block;
+margin: 5px;
+width: 180px;
+}
+
+
+
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    margin: 5px;
+    float: center;
+    width: 180px;
+  }
+
+  p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+
+
+    /*nav*/
+    nav a {
+    width:100px;
+    display: block;
+    padding:20px 15px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    }
+        
+    nav a:hover {
+    background-color: #D2B48C; 
+    text-decoration: none;
+    color: #381e00; 
+    }
+        
+    .link ul li {
+    list-style-type: none;
+    height: 60px;
+    background:transparent;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    font-size: 20;
+    float: none; 
+    }
+
+  
+    
+    
+    
+    
+    
+    /* Footer */
+    
+    .fa {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    width:50px;
+    font-size: 30px;
+    align-content: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 10px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto; 
+    position: absolute;
+    }
+    
+    
+    .fa:hover{
+    opacity: 0.7;
+    }
+    
+    .fa-facebook {
+    background: #3b5998;
+    color: white;
+    right: 300px;
+    }
+    
+    .fa-twitter{
+    background: #55ACEE;
+    color: white;
+    right: 205px;
+    }
+    
+    .fa-instagram{
+    background: #125688;
+    color: white;
+    right: 15px;
+    }
+    
+    .fa-linkedin {   
+    background: #0e76a8;   
+    color: white; 
+    right: 110px;
+}       
+    
+ 

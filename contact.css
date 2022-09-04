@@ -1,0 +1,142 @@
+/* Contact Page */
+body{
+  background-image: url("images/brunch.jpg");
+  background-size: cover;
+   opacity: 0.8;
+}
+
+
+
+
+/*nav*/
+nav a {
+    width:100px;
+    display: block;
+    padding:20px 15px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    opacity: 100;
+    }
+        
+    nav a:hover {
+    background-color: #D2B48C; 
+    text-decoration: none;
+    color: #381e00; 
+    }
+        
+    .link ul li {
+    list-style-type: none;
+    height: 60px;
+    background:transparent;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    font-size: 20;
+    float: none; 
+    }
+  
+
+
+    input[type=“text”],
+  [type=“email”],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: bisque;
+  }
+  input[type=“submit”] {
+    padding: auto;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contactform {
+    position: relative;
+    border-radius: auto;
+    background-color: bisque;
+    padding: 10px;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 3%;
+    width: 90%;
+  }
+
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .row:after {
+    content: “”;
+    display: table;
+    clear: both;
+  }
+
+
+
+
+ /* Footer */
+    
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+  
+  .fa:hover{
+  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+  background: #3b5998;
+  color: white;
+  right: 300px;
+  }
+  
+  .fa-twitter{
+  background: #55ACEE;
+  color: white;
+  right: 205px;
+  }
+  
+  .fa-instagram{
+  background: #125688;
+  color: white;
+  right: 15px;
+  }
+  
+  .fa-linkedin {   
+  background: #0e76a8;   
+  color: white; 
+  right: 110px;
+}       
+  
+
+
+
+
+
+
+
+
+
+
